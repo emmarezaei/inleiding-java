@@ -26,6 +26,7 @@ public class h08opdr1 extends Applet {
         knop2.addActionListener( new KnopListener2() );
 
 
+
     }
 
     public void paint(Graphics g) {
