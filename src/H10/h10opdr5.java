@@ -42,10 +42,12 @@ package H10;
                 onvoldoende = cijfer;
                 tekst = "Onvoldoende: " + onvoldoende;
             }
+
             else if (cijfer > cijferuitkomst) {
                 voldoende = cijfer;
                 tekst = "Voldoende: " + voldoende;
             }
+
             totaalCijfers = totaalCijfers + 1;
             som = som + cijfer;
             gemiddelde = som / totaalCijfers;

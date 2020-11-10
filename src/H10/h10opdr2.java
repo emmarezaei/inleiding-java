@@ -21,14 +21,17 @@ package H10;
             hoogsteGetal = 0;
             laagsteGetal = hoogsteGetal;
         }
+
+
         public void paint(Graphics g) {
             setSize(600,500);
             g.drawString(tekst, 20, 100);
             g.drawString(tekst2, 20, 120);
             tekstvak.setLocation(20,50);
             label.setLocation(20,20);
-
         }
+
+
         class TekstvakListener implements ActionListener {
             public void actionPerformed(ActionEvent e) {
                 s = tekstvak.getText();
