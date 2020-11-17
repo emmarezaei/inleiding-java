@@ -14,7 +14,6 @@ public class h11opdr5 extends Applet {
         int y = 0;
 
         for (teller = 0; teller < 5; teller++) {
-//            g.drawString("" + teller, x, 20);
             x += 20;
             y += 20;
             g.drawRect(x, y, 20, 20);
