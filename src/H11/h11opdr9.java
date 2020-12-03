@@ -26,7 +26,7 @@ public class h11opdr9 extends Applet {
             x += breedte;
         }
 
-        //tweede rij
+        //2e rij
         x = 50;
         y += hoogte;
 
