@@ -27,6 +27,7 @@ public class h12opdr5 extends Applet {
     }
 
     public void paint (Graphics graph){
+
         graph.drawString(text, 50, 50);
     }
 
