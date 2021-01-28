@@ -4,8 +4,9 @@ import java.applet.Applet;
 import java.awt.*;
 
 public class h13opdr2 extends Applet{
-    public void init(){
 
+
+    public void init(){
     }
 
     public void paint(Graphics graph){
@@ -15,12 +16,16 @@ public class h13opdr2 extends Applet{
 
         //kunnen we van die enkele bakstenen een muur maken
     }
+
+
     public void drawBrick(Graphics g, int xCoord, int yCoord, int width, int height){
         g.setColor(Color.red);
         g.fillRect(xCoord, yCoord, width, height);
         g.setColor(Color.BLACK);
         g.drawRect(xCoord, yCoord, width, height);
     }
+
+
     public void drawWall(Graphics graph, int widthWall, int widthHeight){
         int width = 50;
         int height = 20;

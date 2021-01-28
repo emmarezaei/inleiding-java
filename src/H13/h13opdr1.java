@@ -1,22 +1,20 @@
 package H13;
 
-import java.applet.Applet;
 import java.awt.*;
+import java.applet.*;
 
 public class h13opdr1 extends Applet {
 
-    
-    public void init(){
-        System.out.println(add(8, 12));
-    }
-    public void paint(Graphics graph){
-
-    }
-    //wie amg de methode gebruiken -- wat krijg je terug van de methode -- naam van de methode -- (parameters -- datatype naam van de variabele)
-    public int add (int numberOne, int numberTwo){
-        //BODY => code die elke keer uitgevoerd wordt als je de methode aanroept
-        int answer = numberOne + numberTwo;
-        return answer;
+    public void init() {
     }
 
+    public void paint(Graphics g) {
+        tekenDriehoek(g, 0, 100, 100, 100, 50, 0);
+    }
+    public void tekenDriehoek(Graphics g, int x1, int y1, int x2, int y2, int x3, int y3) {
+// teken een driehoek m.b.v. de meegegeven data (parameters)
+        g.drawLine(x1, y1, x2, y2);
+        g.drawLine(x2, y2, x3, y3);
+        g.drawLine(x3, y3, x1, y1);
+    }
 }
